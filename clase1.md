@@ -82,14 +82,31 @@ $ git add . (todo)
 
 Linux
 $ clear
+
 $ ctrl + l   (arrow up)  (tab: autocomplete)
+
 $ cd/ home/usuario/proyect_git (arrow up) (tab: autocomplete)
+
 $ ls -l (listar)
+
 $ pwd (mostrar directorio actual)
+
 $ mkdir nombrecarpeta
+
 $ rm nombrearchivo
+
 $ cat (ver que hay en el archivo)
+
 $ echo "texto a imprimir">nombrearchivo.txt (crear y escribir en el archivo)
+
 $ touch (crear archivo)
+
 $ git clone ....
+
 $ git rm read.pdf
+
+$ cp  (Copiar)
+
+$ mv (mover o renombrar)
+
+$ mkdir (crear carpeta)
