@@ -80,6 +80,41 @@ $ git add . (todo)
 
  git commit -m "C1 prj-start"
 
+----------   (On branch master)
+
+$ git add <file.ext>
+$ git add .
+
+----<><><...>---  (On branch master)
+     - roadmap.excalidraw
+     - Hi.java
+     - ...
+
+$git commit -m "C1 prj-start"
+                C1
+----<><><...>---|--  (On branch master)
+              35b936f
+
+$ git add .gitignore
+
+----<><><...>---|------------------<> (On branch master)
+              35b936f               - .gitignore
+
+$  git commit -m "C2 add .gitignore "
+                C1                    C2                C5
+----<><><...>---|------------------<>-|---   ....   --- | (On branch master)
+              35b936f                43eab06
+
+$ git rm read.pdf           (borrar archivo de la rama)
+
+## branch + merge
+
+----<><><...>---|---                  (main) ----<  (req / fix)
+                |                        ^
+                |             C1...      |
+                |----<><><...>-|--    ...| *(Config)
+                               93fa79b
+
 Linux
 $ clear
 
